@@ -1,0 +1,12 @@
+body, h1, h2, h3{
+
+  font-family: 'Permanent Marker', cursive;
+}
+.board button{
+  height: 100px;
+  width:  100px;
+  background-color: grey;
+  border-radius: 50%;
+  border: 3px solid black;
+
+}

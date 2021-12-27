@@ -1,0 +1,15 @@
+/* table, tr, td {
+  border: 5px solid black;
+}
+table{
+  width:500px;
+  height: 500px;
+} */
+td{
+  text-align: center;
+  font-family: 'Baskervville', serif;
+  width: 150px;
+  height:150px;
+  border: 5px solid black;
+  font-size: 100px;
+}

@@ -1,0 +1,40 @@
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+table{
+margin: auto;
+}
+
+td{
+  width: 150px;
+  height: 350px;
+  border: 6px solid white;
+  /* padding: 10px */
+}
+
+#one{
+  background: #ED0000;
+  padding: 10px;
+}
+
+#two{
+  background: #FFC500;
+  padding: 8px;
+}
+
+#thr{
+  background: #D7B0F3;
+  padding: 6px;
+}
+
+#four{
+  background: #00732B;
+  padding: 4px;
+}
+
+#five{
+  background: #5BB6DC;
+  padding: 2px;
+}

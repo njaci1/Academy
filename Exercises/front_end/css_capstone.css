@@ -1,0 +1,37 @@
+body{
+  margin: auto;
+  background: #0B132B;
+  text-align: center;
+  color: white;
+  border-left: 50px solid #6FFFE9;
+  border-bottom: 50px solid #6FFFE9;
+  border-right: 50px solid #6FFFE9;
+  font-family: 'Titillium Web', sans-serif;
+
+}
+
+h1{
+  text-emphasis-color: white;
+}
+
+p{
+  margin: 0 600px 0 600px;
+}
+
+input{
+  width: 25%;
+  height: 20px;
+}
+
+#submit{
+  color: black;
+  background: #FF9F1C;
+  font-size: 1em;
+  height: 80px;
+  width: 150px;
+  border-radius: 15px;
+}
+
+.one{
+  padding: 20px;
+}

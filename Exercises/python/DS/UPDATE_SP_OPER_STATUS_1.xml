@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BulkUpdateStatusForSPOperatorRequest>
+	<!-- At least one SP Operator item should exist -->
+	<!-- UserName attribute is required -->
+	<SPOperator UserName="KE17832" >
+		<!-- Status item is required -->
+		<!-- Code attribute is required -->	
+		<!-- Identity status codes include: 00 (New), 02 (Pending Active), 03 (Active), 04 (Suspended), 05 (Frozen), 06 (Closed), 07 (Capped), 08 (Dormant). -->
+		<!-- And the latest identity status code values can be found from the data dictionary Identity Status via SP Portal menu My Functions -> Optional Configuration -> Data Dictionary.-->
+		<Status Code="06" />
+	</SPOperator>
+    <SPOperator UserName="KE10977" >
+        <Status Code="06" />
+    </SPOperator>
+    <SPOperator UserName="KE16686" >
+        <Status Code="06" />
+    </SPOperator>
+</BulkUpdateStatusForSPOperatorRequest>
