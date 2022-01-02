@@ -10,4 +10,4 @@ app.get("/contacts", function(req,res){
   res.send("My contacts");
 })
 
-// app.listen(3000, function(){console.log("Server successfully started on port 3000")});
+app.listen(3000, function(){console.log("Server successfully started on port 3000")});
